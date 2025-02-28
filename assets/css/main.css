@@ -2673,9 +2673,6 @@ input, select, textarea {
 				margin-right: auto;
 			}
 
-	footer.major {
-		margin-top: 3em;
-	}
 
 	@media screen and (max-width: 736px) {
 
@@ -3813,3 +3810,4 @@ input, select, textarea {
 .stats {
     padding-bottom: 2em;
 }
+
