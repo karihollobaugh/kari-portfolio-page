@@ -3809,3 +3809,7 @@ input, select, textarea {
         .skill-pill:hover {
             background: linear-gradient(135deg, #9bb2e1, #8cc9f0);
         }
+
+.stats {
+    padding-bottom: 2em;
+}
