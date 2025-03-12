@@ -3825,3 +3825,63 @@ input, select, textarea {
 	margin-bottom: 2em;
 }
 
+/* Flexbox container for the GIFs */
+.demo-gifs {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Mobile Demo Image */
+  #mobile-demo {
+	width: auto;
+	height: auto;
+	object-fit: contain; /* Maintain aspect ratio */
+  }
+  
+  /* Browser Demo Image */
+  #browser-demo {
+	width: auto;
+	height: auto;
+	object-fit: contain; /* Maintain aspect ratio */
+  }
+  
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+	.demo-gifs {
+	  flex-direction: column;  /* Stack images vertically */
+	  align-items: center;     /* Center images */
+	}
+  
+	#mobile-demo {
+	  width: 80%;  /* Resize only on mobile */
+	}
+  
+	#browser-demo {
+	  width: 80%;  /* Resize browser demo to fit on mobile */
+	}
+  }
+  
+  /* Caption Styling */
+  .demo-caption {
+	margin-bottom: 3px; /* Space between the image and the caption */
+	font: inherit;
+	font-size: 14px; /* Smaller font size for the caption */
+	font-weight: 600; /* Make it bold */
+	color: #333;  /* Darker color for the caption */
+	letter-spacing: 1px; /* Slight spacing for readability */
+	text-align: center; /* Center the caption */
+  }
+  
+  /* Container for each demo image and caption */
+  .demo-container {
+	text-align: center;  /* Center the caption under the image */
+	display: flex;
+	flex-direction: column; /* Stack the image and caption vertically */
+	align-items: center; /* Center align the image and caption horizontally */
+	justify-content: center;
+  }
+  
