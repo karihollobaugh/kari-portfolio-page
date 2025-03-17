@@ -3884,4 +3884,7 @@ input, select, textarea {
 	align-items: center; /* Center align the image and caption horizontally */
 	justify-content: center;
   }
+  .project-parts {
+    text-align: left;
+  }
   
